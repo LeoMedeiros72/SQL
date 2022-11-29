@@ -1,0 +1,17 @@
+--- Gerando tabela trilha geral---
+;with TABELA as
+(
+select
+COLUNA 1,
+COLUNA 2,
+COLUNA 3,
+COLUNA 4,
+COLUNA 5,
+COLUNA 6,
+CARGO,
+case when CARGO in ('CARGO 1','CARGO 2 ', 'CARGO 3') or tipo_cargo like '%ALGUMA-PALAVRA-CHAVE%' then 'EXEMPLO-1'
+     when CARGO in ('CARGO 4','CARGO 5') or tipo_cargo like '%ALGUMA-PALAVRA-CHAVE%' then 'EXEMPLO-2'
+     when CARGO like '%ALGUMA-PALAVRA-CHAVE%' then 'EXEMPLO-3'
+    else 'OUTROS' end as tipo_cargo2
+FROM TABELA DE ORIGEM
+)
