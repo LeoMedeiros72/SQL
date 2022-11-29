@@ -1,0 +1,5 @@
+select * from tabela_a
+union all
+select * from tabela_b
+union all
+select * from tabela_c
