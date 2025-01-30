@@ -21,3 +21,14 @@ Este repositório contém exemplos práticos de códigos SQL que são frequentem
    ```bash
    git clone https://github.com/LeoMedeiros72/SQL.git
    cd SQL
+
+
+---
+
+## Próximos Passos
+
+1. Crie o repositório no GitHub.
+2. Adicione os arquivos SQL e o `README.md`.
+3. Compartilhe o projeto com a comunidade!
+
+Se precisar de mais ajuda, estou à disposição! 😊
