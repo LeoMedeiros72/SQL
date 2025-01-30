@@ -19,5 +19,5 @@ Este repositório contém exemplos práticos de códigos SQL que são frequentem
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sql-essencial.git
-   cd sql-essencial
+   git clone https://github.com/LeoMedeiros72/SQL.git
+   cd SQL
